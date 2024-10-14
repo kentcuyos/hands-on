@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form - Golden Crust Cakeshop</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Chocolate</h1>
+    <img src="choco.webp">
+    <h1>Price: ₱500 - ₱1500</h1>
+    <h1>Coffee</h1>
+    <img src="coffee.jpg">
+    <h1>Price: ₱500 - ₱1800</h1>
+    <h1>Vanilla</h1>
+    <img src="vanilla.jpg">
+    <h1>Price: ₱400 - ₱1000</h1>
+    <div class="container">
+        <h1>Place Your Order</h1>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+
+            <label for="contact">Contact Number</label>
+            <input type="tel" id="contact" required>
+
+            <label for="size">Cake Size</label>
+            <select id="size" required>
+                <option value="">Choose Cake Size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+            <label for="flavor">Cake Flavor</label>
+            <select id="flavor" required>
+                <option value="">Choose Flavor</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="coffee">Coffee</option>
+                <option value="vanilla">Vanilla</option>
+            </select>
+
+            <label for="theme">Cake Theme</label>
+            <select id="theme" required>
+                <option value="">Choose Theme</option>
+                <option value="graduation">Graduation</option>
+                <option value="birthday">Birthday</option>
+                <option value="wedding">Wedding</option>
+            </select>
+
+            <label for="requests">Additional Requests</label>
+            <textarea id="requests" rows="5"></textarea>
+
+            <div class="button-group">
+                <a href="cancel.html" class="cancel-btn">Cancel</a>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
